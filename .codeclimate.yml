@@ -1,4 +1,6 @@
 plugins:
      csslint:
         enabled: true
-    
+      checks:
+         order-alphabetical:
+           enabled: false

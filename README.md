@@ -1,0 +1,1 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/487f89681aa3d2cabadf/maintainability)](https://codeclimate.com/github/Raidsheez/projet-javascript/maintainability)

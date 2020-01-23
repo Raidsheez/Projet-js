@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Présentation - Verte Nature - Produit de producteurs locaux Bio</title>
+    <!-- mot clé-->
+    <meta name="keywords" content="Produits Bio">
+    <!-- description du site -->
+    <meta name="description" content="Les producteurs bio locaux, vente de panier et astuces recettes">
+    <!-- Feuilles de style du slider-->
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="public/css/nivo-slider.css" type="text/css" media="screen" />
+    <!-- Lien vers la feuille de style -->
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <header>
+        <p class="log"><a id="myBtn">Connexion / Inscription</a></p>
+        <input id="search" type="search" name="Rechercher" placeholder="Rechercher">
+    </header>
+    <form action="traitement.php" method="post">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Se connecter</h2>
+                </div>
+                <div class="modal-body">
+        
+                        <label for ='email'>Entrez votre Email</label><br>
+                        <input type ='text' name='email' id ='mail' required><br>
+                        <span id ='missMail'></span><br>
+
+                        <label for='password'>Votre mot de passe</label><br>
+                        <input type='password' name='password' id='mdp' required><br>
+                        <span id ='missMdp'></span><br>
+    </form>
+                        <p class="inscription"><a id='connexion'>Connexion</a></p>
+                        <p><a href="login.html">Pas encore inscrit ? Inscrivez-vous !</a></p>
+                </div>
+            </div>
+        </div>
+    <nav id="menu">
+     <figure id="logo">
+        <a href="index.html"><img src="public/images/logo-verte-nature.png" alt="Logo Verte Nature" title="Logo Verte Nature"></a>
+    </figure>
+    <input type="checkbox" id="menu-mobile" role="button">
+    <label for="menu-mobile" class="menu-mobile">
+        <img src="public/images/menu.png">
+    </label>
+        <ul id="activeMenu">
+            <li><a class="itemMenu" href="index.html">Accueil</a></li>
+            <li><a class="itemMenu" href="presentation.html">Présentation</a></li>
+            <li><a class="itemMenu" href="boutique.html">Boutique</a></li>
+            <li><a class="itemMenu" href="blog.html">Blog</a></li>
+            <li><a class="itemMenu" href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="imgtitre">
+            <figure class="figureprésentation"></figure>
+            <figcaption><h1>Présentation</h1></figcaption>
+        </div>
+        <figure class="construction">
+            <img src="public/images/construction.png">
+        </figure>
+    </main>
+    <footer class="piedpage">
+        <aside class="baspage">
+            <div class="contact">
+                <h3>Nous Contacter</h3>
+                <p>Tel : 01 23 45 67 89<br>
+                    Mail : Contact@vertenature.com<br><br>
+                    20 rue Winston  Chruchill<br>
+                    56000 Vannes
+                </p>
+            </div>
+            <div class="acces">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.9201977165285!2d-2.775042283980627!3d47.647117579187444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1e45bf9d89%3A0xf1b4ec0fcc4d768d!2s20%20Rue%20Winston%20Churchill%2C%2056000%20Vannes!5e0!3m2!1sfr!2sfr!4v1573737467784!5m2!1sfr!2sfr" width="450" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="reseaux">
+                <h3>Nos réseaux sociaux</h3>
+                    <figure class="reseauxsociaux">
+                        <a href="https://fr-fr.facebook.com/‎"><img src="public/images/Facebook.png"></a>
+                        <a href="https://www.instagram.com/?hl=fr"><img src="public/images/Instagram.png"></a>
+                        <a href="https://twitter.com/?lang=fr"><img src="public/images/Twitter.png"></a>
+                        <a href="https://www.youtube.com/?hl=fr&gl=FR"><img src="public/images/YouTube.png"></a>
+                    </figure>
+            </div>                
+        </aside>
+            <div class="droit">
+                    <p><a href="index.html">&copy; Verte Nature 2019 - </a><a href="cgv.html"> CGV - </a><a href="mentions.html">Mentions légales - </a></a><a href="mentions.html"> Plan du site</a></p>
+                    <nav class="menusecondaire">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="presentation.html" class="choix">Présentation</a></li>
+                            <li><a href="boutique.html">Boutique</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>   
+            </div>
+    </footer>
+    <script  src="scripts/login.js"></script>
+    <script  src="scripts/modal.js"></script>
+    <script  src="scripts/active.js"></script>
+        <script>menuAct(1);</script>
+</body>
+</html>

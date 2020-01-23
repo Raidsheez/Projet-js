@@ -349,7 +349,7 @@ h2{
     background-color: rgba(0,0,0,0.3);
 }
 .imgtitre h1{
-    margin: 0px auto;
+    margin: 0 auto;
     color:#e0f1c5;
     text-shadow: 1px 1px 2px #2f440b;
 }
@@ -391,7 +391,7 @@ fieldset{
     width:40%;
     border: 4px double #6d9f1a;
     padding:20px 10px;
-    margin:0px auto;
+    margin:0 auto;
 }
 #contact fieldset legend{
     color: #6d9f1a;

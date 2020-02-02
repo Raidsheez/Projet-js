@@ -1,4 +1,4 @@
-let bouton = document.getElementById('bouton');
+let bouton = document.getElementById('submit');
 
 let nom = document.getElementById('nom');
 let missNom = document.getElementById('missNom');
@@ -15,7 +15,7 @@ function validationNom(event){
     missNom.textContent = 'Format incorrect';
     missNom.style.color = 'orange';
   }else{
-    missNom.textContent = "C'est bien idiot";
+    missNom.textContent = "Good job !";
     missNom.style.color = 'green';
   }
 }
@@ -36,7 +36,7 @@ function validationPrenom(event){
     missPrenom.textContent = 'Format incorrect';
     missPrenom.style.color = 'orange';
   }else{
-    missPrenom.textContent = "C'est bien idiot";
+    missPrenom.textContent = "Good job !";
     missPrenom.style.color = 'green';
   }
 }
@@ -57,7 +57,7 @@ function validationEmail(event){
     missEmail.textContent = 'Format incorrect';
     missEmail.style.color = 'orange';
   }else{
-    missEmail.textContent = "C'est bien idiot";
+    missEmail.textContent = "Good job !";
     missEmail.style.color = 'green';
   }
 }
@@ -79,7 +79,7 @@ function validationTel(event){
     missTel.style.color = 'orange';
     
   }else{
-    missTel.textContent = "C'est bien idiot";
+    missTel.textContent = "Good job !";
     missTel.style.color = 'green';
   }
 }
@@ -105,7 +105,7 @@ function validationPassword(event){
   }
 }
 
-let adress = document.getElementById('adress');
+let adress = document.getElementById('street');
 let missAdress = document.getElementById('missAdress');
 let adressValid = /^[0-9a-zA-Zàâéèëêïîôùüç]{3,}$/
 

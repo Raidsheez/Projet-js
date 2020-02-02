@@ -22,7 +22,7 @@
 <body>
     <header>
         <p class="log"><a id="myBtn">Connexion / Inscription</a></p>
-        <input type="search" name="search" id="search" placeholder="Rechercher">
+        <input type="search" name="search" id="recherche" placeholder="Rechercher">
     </header>
     <form>
         <div id="myModal" class="modal">
@@ -77,11 +77,6 @@
             <fieldset>
                 <legend>Vos coordonnées</legend>
 
-                <input type="radio" name="civilité" value="Patate" id="Patate">
-                <label class="petit" for="Patate">Patate</label>
-                <input type="radio" name="civilité" value="Carotte" id="Carotte">
-                <label class="petit" for="Carotte">Carotte</label><br><br>
-
                 <label for='nom'>Entrez votre Nom<label><br>
                 <input type='text' name='nom' id='nom' required><br>
                 <span id='missNom'></span><br>
@@ -90,14 +85,14 @@
                 <input type='text' name='prenom' id='prenom' required><br>
                 <span id='missPrenom'></span><br>
 
-                <label for="adress">Votre adresse</label><br>
-                <textarea type="text" name="adress" id="adress" required></textarea><br>
-                <span id="missAdress"></span><br>
-
                 <label for='email'>Entrez votre Email</label><br>
                 <input type='text' name='email' id='email' required><br>
                 <span id='missEmail'></span><br>
 
+                <label for="street">Votre adresse</label><br>
+                <input type="text" name="street" id="street" required>
+                <span id='missAdress'></span><br>
+                <div id="search"></div>
 
             </fieldset>
             <!-- deuxième bloc -->
@@ -113,10 +108,8 @@
             </fieldset>
 
             <!-- bouton pour envoyer ou réinitialiser le formulaire -->
-            <p class="envoyer"><button id="submit">Envoyer</button><button id="reset" type="reset">Annuler</button></p>
+            <p class="envoyer"><button id="submit">Envoyer</button></p>
         </div>
-
-
     </main>
     <footer class="piedpage">
         <aside class="baspage">
@@ -124,7 +117,7 @@
                 <h3>Nous Contacter</h3>
                 <p>Tel : 01 23 45 67 89<br>
                     Mail : Contact@vertenature.com<br><br>
-                    20 rue Winston Chruchill<br>
+                    20 rue Winston Churchill<br>
                     56000 Vannes
                 </p>
             </div>
@@ -157,15 +150,16 @@
             </nav>
         </div>
     </footer>
-    <script src="scripts/creds.js"></script>
-    <script src="scripts/cirilla.js"></script>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/gouv.js"></script>
+    <!-- <script src="scripts/creds.js"></script>
+    <script src="scripts/cirilla.js"></script> -->
+    <!-- <script src="scripts/login.js"></script>
     <script src="scripts/modal.js"></script>
     <script src="scripts/regex.js"></script>
-    <script src="scripts/active.js"></script>
-    <script>
+    <script src="scripts/active.js"></script> -->
+    <!-- <script>
         menuAct(4);
-    </script>
+    </script> -->
 </body>
 
 </html>

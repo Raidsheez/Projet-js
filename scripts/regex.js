@@ -118,8 +118,8 @@ function validationAdress(event){
     missAdress.style.color = 'red';
   }else if (adressValid.test(adress.value) == false){
     event.preventDefault();
-    missAdress.textContent = 'Format incorrect';
-    missAdress.style.color = 'orange';
+    missAdress.textContent = 'Good job !';
+    missAdress.style.color = 'green';
   }else{
     missAdress.textContent = "Good job !";
     missAdress.style.color = 'green';

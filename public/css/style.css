@@ -17,7 +17,7 @@ header a{
     margin-left: 15px;
     width: 50%;
 }
-#search{
+#recherche{
     /* taille de la barre de recherche */
     width:25%;
 }
@@ -343,7 +343,7 @@ h2{
     width:100%;
     min-height: 100%;
     position: absolute;
-    top: 0px;
+    top: 0;
     display: flex;
     align-items: center;
     background-color: rgba(0,0,0,0.3);
@@ -373,7 +373,7 @@ h2{
     width:100%;
     min-height: 100%;
     position: absolute;
-    top: 0px;
+    top: 0;
     display: flex;
     align-items: center;
     background-color: rgba(0,0,0,0.3);
@@ -388,7 +388,7 @@ form {
     width: 100%;
 }
 fieldset{
-    width:40%;
+    width:100%;
     border: 4px double #6d9f1a;
     padding:20px 10px;
     margin:0 auto;
@@ -398,7 +398,7 @@ fieldset{
     font-style: italic;
 }
 #contact fieldset .colonne{
-    width: 48%;
+    width: 100%;
     float: left;
 }
 #contact p{
@@ -411,6 +411,7 @@ fieldset{
 #contact fieldset textarea{
     /* marge dans la zone de saisie */
     padding:5px;
+    width: 90% ;
 }
 #contact fieldset input:hover,
 #contact fieldset textarea:hover{
@@ -432,7 +433,7 @@ fieldset{
     margin: 10px;
     cursor: pointer;
 }
-#contact p{
+#contact .envoyer{
     text-align:center;
 }
 #contact p #submit:hover,

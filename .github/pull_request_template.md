@@ -13,3 +13,4 @@ Cochez avec un 'x'
 - [ ] La structure est respectée
 - [ ] Le pull request est complété
 - [ ] Le code a été testé avant d'être soumis
+- [ ] Vous avez bien envoyé les beignets
